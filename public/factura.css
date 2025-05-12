@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    color: #333;
+}
+
+.seccion {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.tabla-empresa {
+    border: 2px solid #007BFF;
+}
+
+.tabla-cliente {
+    border: 2px solid #28A745;
+}
+
+.tabla-productos {
+    border: 2px solid #FFC107;
+}
+
+.tabla-productos thead {
+    background-color: #ffeeba;
+}
+
+.tabla-adicional {
+    border: 2px solid #6C757D;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #e9ecef;
+    border-top: 2px solid #6C757D;
+}
