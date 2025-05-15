@@ -1,8 +1,15 @@
 body {
+
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 20px;
-    color: #333;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-ropa-accesorios-moda-femenina_328432-283.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin:0;
+    color: #121313;
+    
 }
 
 .seccion {
@@ -12,13 +19,13 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #fff;
+    background-color: #b0d1fd;
     margin-bottom: 10px;
 }
 
 th, td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0e0d0d;
     text-align: left;
 }
 
@@ -28,23 +35,24 @@ h2, h3 {
 }
 
 .tabla-empresa {
-    border: 2px solid #007BFF;
+
+    border: 5px solid #0d0d0d;
 }
 
 .tabla-cliente {
-    border: 2px solid #28A745;
+    border: 5px solid #0b0b0b;
 }
 
 .tabla-productos {
-    border: 2px solid #FFC107;
+    border: 2px solid #0c0c0c;
 }
 
 .tabla-productos thead {
-    background-color: #ffeeba;
+    background-color: #9c84fb;
 }
 
 .tabla-adicional {
-    border: 2px solid #6C757D;
+    border: 2px solid #060606;
 }
 
 .footer {
